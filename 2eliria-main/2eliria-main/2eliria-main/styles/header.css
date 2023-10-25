@@ -57,9 +57,14 @@
     display: none;
 }
 
-.imagem{
-    background-color: black;
- width: 50;
-height: 100;
-padding: 50px
-;}
+@media screen and (min-width: 1024PX){
+    .container__titulo{
+        font-family: josefin Sans;
+        font-size: 30px;
+        font-weight: 400;
+        display: block;
+    }
+    .container__titulo--negrito{
+    font-weight: 700;
+    }
+} 
